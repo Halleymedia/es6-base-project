@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "noUnusedLocals": true,
+      "strict": true,
+      "baseUrl": "./src",
+      "checkJs": true,
+      "target": "es2015"
+    },
+    "exclude": [ "node_modules" ]
+}

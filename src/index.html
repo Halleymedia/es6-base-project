@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Base Project</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="/">ES6 Base Project</a>
+    </nav>
+    <div class="container" data-role="app"></div>
+
+    <script src="index.js"></script>
+    <script>
+        const containerElement = document.querySelector("[data-role=app]");
+        const app = new App(containerElement);
+        console.log('App was started!', app);
+    </script>
+</body>
+</html>
