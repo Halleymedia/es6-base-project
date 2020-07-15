@@ -11,7 +11,7 @@ npm install
 ## Build
 Build the application by running the command:
 ```
-dotnet run build
+npm run build
 ```
 Or by pressing `Ctrl`+`Shift`+`B` on Visual Studio Code.
 
